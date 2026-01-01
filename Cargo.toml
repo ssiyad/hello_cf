@@ -1,0 +1,12 @@
+[package]
+name = "hello_cf"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sabu Siyad <hello@ssiyad.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+worker = { version = "0.7" }
+worker-macros = { version = "0.7" }
